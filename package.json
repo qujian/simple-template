@@ -1,20 +1,15 @@
 {
-  "name": "@aunz/simple-template",
+  "name": "@hqx/simple-template",
   "version": "0.0.4",
   "description": "Simple template, replacing string with multiple matches",
   "jsnext:main": "src/index.js",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node tool/test",
-    "dev": "node tool/dev",
-    "bundle": "node tool/bundle",
-    "build": "babel src -d lib",
-    "clean": "rm -rf build && rm -rf test/build && rm -rf lib",
-    "prepublish": "npm run clean && npm run bundle && npm run build"
+    "clean": "rm -rf build && rm -rf test/build && rm -rf lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aunz/simple-template.git"
+    "url": "git+https://github.com/qujian/simple-template.git"
   },
   "keywords": [
     "template"
@@ -22,18 +17,9 @@
   "author": "KN <aunz10@yahoo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aunz/simple-template/issues"
+    "url": "https://github.com/qujian/simple-template/issues"
   },
-  "homepage": "https://github.com/aunz/simple-template#readme",
-  "babel": {
-    "presets": [
-      "es2015",
-      "stage-0"
-    ],
-    "plugins": [
-      "transform-runtime"
-    ]
-  },
+  "homepage": "https://github.com/qujian/simple-template#readme",
   "devDependencies": {
     "babel-cli": "^6.3.15",
     "raw-loader": "^0.5.1",
