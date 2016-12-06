@@ -1,6 +1,6 @@
 {
   "name": "@hqx/simple-template",
-  "version": "0.0.4",
+  "version": "0.0.4-1103",
   "description": "Simple template, replacing string with multiple matches",
   "jsnext:main": "src/index.js",
   "main": "lib/index.js",
